@@ -1,7 +1,7 @@
+#python pip install lib
 import cv2
 import mediapipe as mp
 import time
-python -m pip install mediapipe
 # Webcam öffnen
 cap = cv2.VideoCapture(0)
 
@@ -62,3 +62,4 @@ while True:
 # Ressourcen freigeben
 cap.release()
 cv2.destroyAllWindows()
+
