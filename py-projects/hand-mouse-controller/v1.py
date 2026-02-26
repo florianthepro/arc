@@ -1,3 +1,4 @@
+#python -m ensurepip --upgrade
 #python pip install cv2
 #python pip install mediapip
 #python pip install time
@@ -64,6 +65,7 @@ while True:
 # Ressourcen freigeben
 cap.release()
 cv2.destroyAllWindows()
+
 
 
 
