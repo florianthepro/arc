@@ -1,4 +1,5 @@
 #python pip install lib
+
 import cv2
 import mediapipe as mp
 import time
@@ -62,4 +63,5 @@ while True:
 # Ressourcen freigeben
 cap.release()
 cv2.destroyAllWindows()
+
 
